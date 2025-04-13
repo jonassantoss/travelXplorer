@@ -10,7 +10,7 @@
   <body>
     <header>
       <h1>TravelXplorer</h1>
-      <nav>
+      <nav class="nav-menu">
         <ul>
           <li><a href="#destinos">Destinos</a></li>
           <li><a href="#precos">Preços</a></li>
@@ -19,10 +19,34 @@
           <li><a href="#sobre">Sobre Nós</a></li>
         </ul>
       </nav>
-      <div>
+      <div class="auth-buttons">
         <button>Entrar</button>
         <button class="button-primary">Cadastrar</button>
       </div>
+      <!-- menu hamburguer -->
+      <nav class="menu-hamburguer">
+        <input type="checkbox" class="menu-hamburguer__input" id="menu" />
+        <label for="menu" class="menu-hamburguer__label">
+          <span class="menu-hamburguer__image"></span>
+        </label>
+        <ul class="menu-hamburguer__list">
+          <li class="menu-hamburguer__list-item">
+            <a class="menu-hamburguer__list-link" href="#destinos">Destinos</a>
+          </li>
+          <li class="menu-hamburguer__list-item">
+            <a class="menu-hamburguer__list-link" href="#precos">Preços</a>
+          </li>
+          <li class="menu-hamburguer__list-item">
+            <a class="menu-hamburguer__list-link" href="#dicas">Dicas</a>
+          </li>
+          <li class="menu-hamburguer__list-item">
+            <a class="menu-hamburguer__list-link" href="#contato">Contato</a>
+          </li>
+          <li class="menu-hamburguer__list-item">
+            <a class="menu-hamburguer__list-link" href="#sobre">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
