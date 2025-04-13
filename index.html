@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/index.css" />
+    <title>TravelXplorer</title>
+  </head>
+  <body>
+    <header>
+      <h1>TravelXplorer</h1>
+      <nav>
+        <ul>
+          <li><a href="#destinos">Destinos</a></li>
+          <li><a href="#precos">Preços</a></li>
+          <li><a href="#dicas">Dicas</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+        </ul>
+      </nav>
+      <div>
+        <button>Entrar</button>
+        <button class="button-primary">Cadastrar</button>
+      </div>
+    </header>
+
+    <main>
+      <div class="hero">
+        <img
+          src="images/hero.jpg"
+          alt="Paisagem de montanhas e lagos"
+          class="hero-img"
+        />
+        <div class="hero-content">
+          <h1>Explore o Mundo</h1>
+          <p>
+            Descubra lugares incríveis, viva novas experiências e crie memórias
+            inesquecíveis em sua próxima viagem.
+          </p>
+        </div>
+      </div>
+
+      <section class="destaque-viagem">
+        <div class="destaque-imagem"></div>
+
+        <div class="destaque-detalhes">
+          <h2>Destino dos Sonhos: Orlando</h2>
+          <p>
+            Conheça Orlando, o destino perfeito para turistas brasileiros!
+            Explore os famosos parques temáticos como Disney World, Universal
+            Studios e SeaWorld, além de outlets incríveis para compras e uma
+            gastronomia diversificada.
+          </p>
+          <a href="#destinos">Saiba Mais</a>
+        </div>
+      </section>
+
+      <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <p class="section__subtitle">
+          Conheça alguns dos destinos mais procurados do momento:
+        </p>
+
+        <div class="destinos-grid">
+          <article class="destino-card">
+            <img src="images/torre-eiffel.jpg" alt="Paris - Torre Eiffel" />
+            <div class="destino-info">
+              <h3>Paris, França</h3>
+              <p>
+                A cidade do amor e das luzes, com sua arquitetura deslumbrante e
+                rica cultura.
+              </p>
+              <details>
+                <summary>Mais informações</summary>
+                <div>
+                  <p>
+                    Paris é conhecida por seus museus de classe mundial,
+                    incluindo o Louvre e o Museu d'Orsay, além de monumentos
+                    icônicos como a Torre Eiffel e o Arco do Triunfo.
+                  </p>
+                  <p>
+                    <mark>Melhor época para visitar:</mark> Primavera (abril a
+                    junho) ou outono (setembro a novembro).
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="destino-card">
+            <img src="images/toquio.jpg" alt="Tóquio - Vista Urbana" />
+            <div class="destino-info">
+              <h3>Tóquio, Japão</h3>
+              <p>
+                Uma metrópole fascinante que mistura tradição milenar com
+                tecnologia de ponta.
+              </p>
+              <details>
+                <summary>Mais informações</summary>
+                <div>
+                  <p>
+                    Tóquio oferece uma mistura única de cultura tradicional
+                    japonesa e inovação moderna, com templos antigos ao lado de
+                    arranha-céus futuristas.
+                  </p>
+                  <p>
+                    <mark>Melhor época para visitar:</mark> Primavera (março a
+                    maio) para as cerejeiras em flor, ou outono (setembro a
+                    novembro).
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+
+          <article class="destino-card">
+            <img
+              src="images/-cristo-_0.jpg"
+              alt="Rio de Janeiro - Cristo Redentor"
+            />
+            <div class="destino-info">
+              <h3>Rio de Janeiro, Brasil</h3>
+              <p>
+                A cidade maravilhosa, com suas praias deslumbrantes e paisagens
+                de tirar o fôlego.
+              </p>
+              <details>
+                <summary>Mais informações</summary>
+                <div>
+                  <p>
+                    O Rio de Janeiro é famoso por suas praias como Copacabana e
+                    Ipanema, pelo Cristo Redentor e pelo Pão de Açúcar, além do
+                    seu carnaval animado.
+                  </p>
+                  <p>
+                    <mark>Melhor época para visitar:</mark> Setembro a março,
+                    período de verão no hemisfério sul.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="precos">
+        <h2>Tabela de Preços</h2>
+        <p class="section__subtitle">
+          Confira os preços médios para os destinos mais populares (valores em
+          reais por pessoa):
+        </p>
+
+        <table>
+          <caption>
+            Preços de pacotes para 2025
+          </caption>
+          <thead>
+            <tr>
+              <th>Destino</th>
+              <th>Baixa Temporada</th>
+              <th>Alta Temporada</th>
+              <th>Duração</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Paris, França</td>
+              <td>R$ 8.500</td>
+              <td>R$ 12.000</td>
+              <td>7 dias</td>
+            </tr>
+            <tr>
+              <td>Roma, Itália</td>
+              <td>R$ 8.200</td>
+              <td>R$ 11.500</td>
+              <td>7 dias</td>
+            </tr>
+            <tr>
+              <td>Tóquio, Japão</td>
+              <td>R$ 10.500</td>
+              <td>R$ 15.000</td>
+              <td>10 dias</td>
+            </tr>
+            <tr>
+              <td>Nova York, EUA</td>
+              <td>R$ 9.800</td>
+              <td>R$ 14.000</td>
+              <td>7 dias</td>
+            </tr>
+            <tr>
+              <td>Rio de Janeiro, Brasil</td>
+              <td>R$ 3.500</td>
+              <td>R$ 6.800</td>
+              <td>5 dias</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="4">
+                * Preços sujeitos a alterações. Consulte disponibilidade.
+              </td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+
+      <section id="dicas">
+        <h2>Dicas de Viagem</h2>
+
+        <article>
+          <h3>Preparando sua mala</h3>
+          <p>
+            Uma boa organização da mala é essencial para uma viagem tranquila.
+            Aqui estão algumas dicas importantes:
+          </p>
+
+          <ol>
+            <li>Pesquise o clima do destino e leve roupas adequadas</li>
+            <li>
+              Não esqueça documentos importantes:
+              <ul>
+                <li>Passaporte (para viagens internacionais)</li>
+                <li>Documentos de identidade</li>
+                <li>Cartões de crédito e dinheiro</li>
+                <li>Seguro viagem</li>
+              </ul>
+            </li>
+            <li>Leve medicamentos básicos e de uso contínuo</li>
+            <li>Adaptadores de tomada para viagens internacionais</li>
+            <li>Use organizadores de mala para otimizar espaço</li>
+          </ol>
+
+          <aside>
+            <h4>Dica extra:</h4>
+            <p>
+              Leve sempre uma muda de roupa e itens essenciais na bagagem de
+              mão, caso sua mala despachada seja extraviada.
+            </p>
+          </aside>
+        </article>
+
+        <article>
+          <h3>Economia em viagens</h3>
+          <p>
+            Viajar não precisa ser caro! Confira estas estratégias para
+            economizar:
+          </p>
+
+          <dl>
+            <dt>Antecedência</dt>
+            <dd>
+              Reserve passagens aéreas e hotéis com pelo menos 3 meses de
+              antecedência para melhores preços.
+            </dd>
+
+            <dt>Temporada baixa</dt>
+            <dd>
+              Viaje fora da alta temporada para economizar até 40% nos custos
+              totais.
+            </dd>
+
+            <dt>Transporte público</dt>
+            <dd>
+              Use transporte público local em vez de táxis para conhecer a
+              cidade como um local e economizar.
+            </dd>
+
+            <dt>Alimentação</dt>
+            <dd>
+              Alterne entre restaurantes turísticos e lugares frequentados por
+              locais para uma experiência autêntica e mais econômica.
+            </dd>
+          </dl>
+        </article>
+
+        <details>
+          <summary>Medidor de preparação para viagem</summary>
+          <div>
+            <p>Avalie seu nível de preparação para a viagem:</p>
+            <label for="preparacao">Nível de preparação:</label>
+            <progress id="preparacao" value="70" max="100">70%</progress>
+            <p>
+              Complete todos os itens da nossa lista para atingir 100% de
+              preparação!
+            </p>
+          </div>
+        </details>
+      </section>
+
+      <section id="contato">
+        <h2>Entre em Contato</h2>
+        <p class="section__subtitle">
+          Preencha o formulário abaixo para receber mais informações sobre
+          nossos pacotes de viagem:
+        </p>
+
+        <form id="contato-form">
+          <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <div>
+              <label for="nome">Nome Completo:</label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                required
+                placeholder="Seu nome completo"
+              />
+            </div>
+
+            <div>
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="seu.email@exemplo.com"
+              />
+            </div>
+
+            <div>
+              <label for="telefone">Telefone:</label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="(00) 00000-0000"
+              />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Preferências de Viagem</legend>
+
+            <div>
+              <label for="destino">Destino de Interesse:</label>
+              <select id="destino" name="destino">
+                <option value="">Selecione um destino</option>
+                <optgroup label="Europa">
+                  <option value="paris">Paris, França</option>
+                  <option value="roma">Roma, Itália</option>
+                  <option value="londres">Londres, Inglaterra</option>
+                </optgroup>
+                <optgroup label="Ásia">
+                  <option value="toquio">Tóquio, Japão</option>
+                  <option value="bangkok">Bangkok, Tailândia</option>
+                </optgroup>
+                <optgroup label="Américas">
+                  <option value="ny">Nova York, EUA</option>
+                  <option value="rio">Rio de Janeiro, Brasil</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div>
+              <label class="input-title">Tipo de viagem:</label>
+              <label class="radio__label">
+                <div class="radio__input">
+                  <span>Lazer</span>
+                  <input
+                    type="radio"
+                    name="tipo-viagem"
+                    value="lazer"
+                    checked
+                  />
+                </div>
+                <div></div>
+              </label>
+              <label class="radio__label">
+                <div class="radio__input">
+                  <span>Negócios</span>
+                  <input type="radio" name="tipo-viagem" value="negocios" />
+                </div>
+                <div></div>
+              </label>
+              <label class="radio__label">
+                <div class="radio__input">
+                  <span>Estudos</span>
+                  <input type="radio" name="tipo-viagem" value="estudos" />
+                </div>
+                <div></div>
+              </label>
+            </div>
+
+            <div>
+              <label class="input-title"
+                >Interesses (selecione todos que se aplicam):</label
+              >
+              <label class="checkbox__label">
+                <div class="checkbox__input">
+                  Cultura e História
+                  <input type="checkbox" name="interesses" value="cultura" />
+                </div>
+                <div></div>
+              </label>
+              <label class="checkbox__label">
+                <div class="checkbox__input">
+                  Gastronomia
+                  <input
+                    type="checkbox"
+                    name="interesses"
+                    value="gastronomia"
+                  />
+                </div>
+                <div></div>
+              </label>
+              <label class="checkbox__label">
+                <div class="checkbox__input">
+                  Aventura
+                  <input type="checkbox" name="interesses" value="aventura" />
+                </div>
+                <div></div>
+              </label>
+              <label class="checkbox__label">
+                <div class="checkbox__input">
+                  Relaxamento
+                  <input
+                    type="checkbox"
+                    name="interesses"
+                    value="relaxamento"
+                  />
+                </div>
+                <div></div>
+              </label>
+            </div>
+
+            <div>
+              <label class="input-title" for="data-viagem"
+                >Data aproximada da viagem:</label
+              >
+              <input
+                type="date"
+                id="data-viagem"
+                name="data-viagem"
+                min="2025-01-01"
+              />
+            </div>
+
+            <div>
+              <label class="input-title" for="orcamento"
+                >Orçamento aproximado:</label
+              >
+              <input
+                type="range"
+                id="orcamento"
+                name="orcamento"
+                min="3000"
+                max="20000"
+                step="1000"
+                value="10000"
+              />
+              <output for="orcamento" id="valor-orcamento">R$ 10.000</output>
+            </div>
+          </fieldset>
+
+          <div>
+            <label for="mensagem">Mensagem adicional:</label>
+            <textarea
+              id="mensagem"
+              name="mensagem"
+              rows="5"
+              placeholder="Conte-nos mais sobre a viagem dos seus sonhos..."
+            ></textarea>
+          </div>
+
+          <div>
+            <button class="button-primary" type="submit">
+              Enviar Mensagem
+            </button>
+            <button type="reset">Limpar Formulário</button>
+          </div>
+        </form>
+      </section>
+
+      <section id="sobre">
+        <h2>Sobre Nós</h2>
+
+        <article>
+          <h3>Nossa História</h3>
+          <p>
+            A <em>TravelXplorer</em> surgiu em 2015 com o objetivo de
+            proporcionar experiências únicas e personalizadas para viajantes que
+            buscam mais do que apenas turismo convencional.
+          </p>
+
+          <blockquote cite="https://exemplo.com/depoimentos">
+            <p>
+              "A equipe da TravelXplorer transformou nossa viagem em uma
+              experiência inesquecível. Cada detalhe foi pensado e executado com
+              perfeição."
+            </p>
+            <footer>— <cite>Maria Silva, cliente desde 2018</cite></footer>
+          </blockquote>
+
+          <figure>
+            <img src="images/team.jpg" alt="Equipe da Viagem pelo Mundo" />
+            <figcaption>
+              Nossa equipe de consultores de viagem especializados
+            </figcaption>
+          </figure>
+        </article>
+
+        <article>
+          <h3>Missão e Valores</h3>
+          <p>
+            Nossa missão é proporcionar
+            <strong>experiências autênticas e transformadoras</strong> através
+            de viagens cuidadosamente planejadas.
+          </p>
+
+          <h4>Nossos valores incluem:</h4>
+          <ul>
+            <li>Excelência no atendimento</li>
+            <li>Turismo sustentável e responsável</li>
+            <li>Respeito às culturas locais</li>
+            <li>Inovação constante</li>
+            <li>Personalização de experiências</li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 TravelXplorer - Todos os direitos reservados</p>
+
+      <address>
+        <p>
+          <strong>Endereço:</strong> Av. das Viagens, 1000 - São Paulo/SP<br />
+          <strong>Telefone:</strong> (11) 5555-1234<br />
+          <strong>E-mail:</strong>
+          <a href="mailto:contato@viagempelomundo.com.br" style="color: white"
+            >contato@travelxplorer.com.br</a
+          >
+        </p>
+      </address>
+
+      <p>
+        <small>Este site foi desenvolvido para fins educativos.</small>
+      </p>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

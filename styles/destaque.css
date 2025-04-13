@@ -1,0 +1,55 @@
+.destaque-viagem {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 20px;
+  max-width: 1200px;
+}
+
+.destaque-imagem {
+  background-image: url("../images/disney.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 300px;
+  border-radius: 8px;
+}
+
+.destaque-detalhes {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  gap: 15px;
+}
+
+.destaque-detalhes p {
+  font-size: 1.6rem;
+  color: #555;
+  margin: 0;
+}
+
+.destaque-detalhes a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 15px;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 150px;
+  transition: background-color 0.3s;
+}
+
+.destaque-detalhes a:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .destaque-viagem {
+    grid-template-columns: 1fr;
+  }
+
+  .destaque-imagem {
+    min-height: 200px;
+  }
+}

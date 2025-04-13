@@ -1,0 +1,12 @@
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+footer address {
+  margin-top: 1rem;
+  font-style: normal;
+}

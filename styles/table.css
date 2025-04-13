@@ -1,0 +1,35 @@
+/* Tabela de preços */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+}
+
+caption {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+thead {
+  background-color: #023e8a;
+  color: white;
+}
+
+thead tr {
+  font-size: 1.2rem;
+}
+
+th,
+td {
+  padding: 0.75rem;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+tbody tr {
+  font-size: 1.2rem;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
